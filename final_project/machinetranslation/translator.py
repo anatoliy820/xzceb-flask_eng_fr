@@ -40,3 +40,4 @@ def frenchToEnglish(frenchText):
     translation = translation_response.get_result()
     englishText = translation['translations'][0]['translation']
     return englishText
+    
